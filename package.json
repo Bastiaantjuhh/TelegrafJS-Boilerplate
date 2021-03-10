@@ -15,6 +15,6 @@
     "log-symbols": "^4.0.0",
     "pretty-error": "^2.1.2",
     "require-all": "^3.0.0",
-    "telegraf": "^3.38.0"
+    "telegraf": "^4.2.0"
   }
 }
