@@ -1,0 +1,22 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "06:00"
+    timezone: Europe/Amsterdam
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: log-symbols
+    versions:
+    - 4.1.0
+  - dependency-name: telegraf
+    versions:
+    - 4.0.2
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.2.0
+    - 4.2.1
